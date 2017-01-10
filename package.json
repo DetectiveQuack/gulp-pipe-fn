@@ -1,27 +1,29 @@
 {
-  "name": "gulp-pipe-fn",
-  "version": "1.0.0",
-  "description": "Invoke a function in gulp.pipe",
-  "main": "gulp-pipe-fn.js",
-  "dependencies": {
-    "gulp": "^3.9.1",
-    "gulp-util": "^3.0.8",
-    "through2": "^2.0.3"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Saff Soobratty",
-  "license": "MIT",
-  "keywords": [
-    "function",
-    "gulp",
-    "gulp-fn",
-    "gulp-function"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/saff1989/gulp-pipe-fn"
-  }
+    "name": "gulp-pipe-fn",
+    "version": "1.0.0",
+    "description": "Invoke a function in gulp.pipe",
+    "main": "gulp-pipe-fn.js",
+    "dependencies": {
+        "gulp": "^3.9.1",
+        "gulp-util": "^3.0.8",
+        "through2": "^2.0.3"
+    },
+    "devDependencies": {
+        "jasmine-node": "^1.14.5"
+    },
+    "scripts": {
+        "test": "node_modules/jasmine-node/bin/jasmine-node ./tests/gulp-pipe-fn.spec.js"
+    },
+    "author": "Saff Soobratty",
+    "license": "MIT",
+    "keywords": [
+        "function",
+        "gulp",
+        "gulp-fn",
+        "gulp-function"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/saff1989/gulp-pipe-fn"
+    }
 }

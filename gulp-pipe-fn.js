@@ -3,16 +3,16 @@ var gulp = require('gulp'),
     gutil = require('gulp-util'),
     gulpPipeFn;
 
-gulpPipeFn = function (fn) {
+gulpPipeFn = function(fn) {
     if (!fn) {
         return new gutil.PluginError('gulp-pipe-fn', {
             message: 'No function passed in'
         });
     }
 
-    return through2.obj(function (chunk, enc, callback) {
+    return through2.obj(function(chunk, enc, callback) {
         fn.call(this, chunk, enc);
-        return callback();
+        return callback(null, chunk);
     });
 }
 
