@@ -1,0 +1,1 @@
+Invoke a function in a gulp.pipe.

@@ -13,5 +13,15 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Saff Soobratty",
-  "license": "ISC"
+  "license": "MIT",
+  "keywords": [
+    "function",
+    "gulp",
+    "gulp-fn",
+    "gulp-function"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saff1989/gulp-pipe-fn"
+  }
 }
