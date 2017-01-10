@@ -1,0 +1,17 @@
+{
+  "name": "gulp-pipe-fn",
+  "version": "1.0.0",
+  "description": "Invoke a function in gulp.pipe",
+  "main": "gulp-pipe-fn.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.8",
+    "through2": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Saff Soobratty",
+  "license": "ISC"
+}
