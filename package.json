@@ -1,6 +1,6 @@
 {
   "name": "gulp-pipe-fn",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Invoke a function in gulp.pipe",
   "main": "gulp-pipe-fn.js",
   "dependencies": {
