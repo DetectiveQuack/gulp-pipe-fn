@@ -6,7 +6,7 @@ const gulp = require('gulp'),
     gulpPipeFn = require('gulp-pipe-fn');
 
 gulp.task('default', () => {
-    gulp.src(['./*'])
+    return gulp.src(['./*'])
         .pipe(gulpPipeFn((file, enc) => { console.log(file, enc) }));
 });
 ```
